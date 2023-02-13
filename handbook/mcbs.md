@@ -1,13 +1,20 @@
 # MCBS
 
+## Overview
+
+MCBS, or Medicare Current Beneficiary Survey, selects a portion of Medicare beneficiaries each year and asks them detailed survey questions three times a year for four years. This data is much more detailed about various individual-level topics compared to other Medicare data, but it contains a small fraction of the total Medicare population. Each year, about ~11,500 people are added to the surveys, and individuals who joined the survey four years prior graduate from the study.
+
 ## MCBS Prior To 2015
 
-The available MCBS data prior 2015 is not optimal for data analysis. No data exists for 2014 because the questionnaires were not administered. However, a new baseline panel was still selected.
+The available MCBS data prior 2015 is not optimal for data analysis. Prior to 2015, the data is split into Cost and Use and Access to Care files. Currently, the lab only has Cost and Use files, which are not reflective of the Medicare population and should not be used for most research questions. No data exists for 2014 because the questionnaires were not administered. However, a new baseline panel was still selected, and the participants from 2014 continue into the 2015-onwards surveys.
 
 ## MCBS 2015
 
 ### Changes in 2015
-This marks the first use of the Survey and Cost Supplement files. Previously, these were called the Access to Care and Cost and Use files, respectively. The survey files can be standalone, or the Cost Supplement files can be considered, but in order to access important demographic information, the survey files are necessary. The beneficiaries the Cost Supplement are a subset of the Survey beneficiaries. In general, each participant will have data for four years in the Survey file and for three years in the Cost Supplement file. In 2015, ghosts were no longer used to give an extra year's worth of information in the Cost files. 
+
+Note: NSAPH members are encouraged to restrict analyses to 2015 and onwards when using MCBS data. Data before 2015 is not intended for analysis as those are the cost files rather than the survey files. 
+
+2015 marks the first use of the Survey and Cost Supplement files. Previously, these were called the Access to Care and Cost and Use files, respectively. The survey files can be standalone, or the Cost Supplement files can be considered, but in order to access important demographic information, the survey files are necessary. The beneficiaries the Cost Supplement are a subset of the Survey beneficiaries. In general, each participant will have data for four years in the Survey file and for three years in the Cost Supplement file. In 2015, ghosts were no longer used to give an extra year's worth of information in the Cost files. 
 
 According to the Methodology documentation: "Beginning in 2015, beneficiaries who became eligible for Medicare Part A or B and enrolled anytime during the sampling year were eligible to be sampled as part of the annual MCBS panel. Prior to 2015, only beneficiaries who became eligible on or before January 1 of the sampling year were eligible to be sampled." 
 
